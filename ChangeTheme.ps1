@@ -68,6 +68,7 @@ Date Created: June 16, 2025
 
 [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'High')]
 param (
+    [SupportsWildcards()]
     [Alias('t')]
     [string]$Theme,
     [Alias('m')]
